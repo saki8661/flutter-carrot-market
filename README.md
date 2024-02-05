@@ -1,16 +1,28 @@
-# carrot
+# Carrot_Market(24.02.05 ~ ing)
 
-A new Flutter project.
+## 목차
 
-## Getting Started
+- [설정](#설정)
+- [홈](#홈)
+- [나의 당근](#나의 당근)
 
-This project is a starting point for a Flutter application.
+## 설정
 
-A few resources to get you started if this is your first Flutter project:
+- yaml파일 설정
+- theme파일 설정
+- 바텀네비게이션 설정
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 홈(화면)
+
+- 홈 앱바
+- Product : Mock데이터
+- 상품이미지
+- 상품상세
+
+
+## 나의 당근(화면)
+
+- 나의 당근 앱바
+- Header(Card위젯 사용)
+- IconMenu : Mock데이터

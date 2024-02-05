@@ -12,7 +12,7 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         title: Row(
           children: [
-            const Text('좌동'),
+            const Text('용호동'),
             const SizedBox(width: 4.0),
             const Icon(
               CupertinoIcons.chevron_down,
