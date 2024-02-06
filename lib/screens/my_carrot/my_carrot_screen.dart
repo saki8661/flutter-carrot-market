@@ -1,3 +1,5 @@
+import 'package:carrot/models/icon_menu.dart';
+import 'package:carrot/screens/my_carrot/components/card_icon_menu.dart';
 import 'package:carrot/screens/my_carrot/components/my_carrot_header.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -27,11 +29,11 @@ class MyCarrotScreen extends StatelessWidget {
         children: [
           MyCarrotHeader(),
           const SizedBox(height: 8.0),
-          // MyCarrotMenu(iconMenuList: iconMenu1),
+          CardIconMenu(iconMenuList: iconMenu1),
           const SizedBox(height: 8.0),
-          // MyCarrotMenu(iconMenuList: iconMenu2),
+          CardIconMenu(iconMenuList: iconMenu2),
           const SizedBox(height: 8.0),
-          // MyCarrotMenu(iconMenuList: iconMenu3),
+          CardIconMenu(iconMenuList: iconMenu3),
         ],
       ),
     );
