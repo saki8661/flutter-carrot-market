@@ -104,14 +104,17 @@ class LifeBody extends StatelessWidget {
     );
   }
 
-  Padding _buildImage() {
-    return Padding(
-      padding: const EdgeInsets.only(left: 16, right: 16, bottom: 16),
-      child: Image.network(
-        neighborhoodLife.contentImgUri,
-        height: 200,
-        width: double.infinity,
-        fit: BoxFit.cover,
+  Visibility _buildImage() {
+    return Visibility(
+      visible: neighborhoodLife.contentImgUri != '',
+      child: Padding(
+        padding: const EdgeInsets.only(left: 16, right: 16, bottom: 16),
+        child: Image.network(
+          neighborhoodLife.contentImgUri,
+          height: 200,
+          width: double.infinity,
+          fit: BoxFit.cover,
+        ),
       ),
     );
   }
